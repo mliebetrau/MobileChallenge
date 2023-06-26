@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB4822C2A3E70B800EC5213 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4822B2A3E70B800EC5213 /* Product.swift */; };
+		CEB4822F2A3E718500EC5213 /* ProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4822E2A3E718500EC5213 /* ProductResponse.swift */; };
+		CEB4823A2A3E746A00EC5213 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB482392A3E746A00EC5213 /* ProductListView.swift */; };
+		CEB4823C2A3E7D9B00EC5213 /* ProductDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4823B2A3E7D9B00EC5213 /* ProductDTO.swift */; };
+		CEB4823F2A3E7FAF00EC5213 /* ProductMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4823E2A3E7FAF00EC5213 /* ProductMapper.swift */; };
+		CEB482452A40EAA700EC5213 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB482442A40EAA700EC5213 /* ProductCard.swift */; };
+		CEB482472A40F13000EC5213 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB482462A40F13000EC5213 /* CartButton.swift */; };
+		CEB482492A40F4E700EC5213 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB482482A40F4E700EC5213 /* CartView.swift */; };
+		CEB4824C2A40F63A00EC5213 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4824B2A40F63A00EC5213 /* CartManager.swift */; };
+		CEB4824E2A40F8A300EC5213 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4824D2A40F8A300EC5213 /* ProductRow.swift */; };
+		CEB482512A40FC1600EC5213 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB482502A40FC1600EC5213 /* CartItem.swift */; };
+		CEB482592A4824D900EC5213 /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB482582A4824D900EC5213 /* ProductManager.swift */; };
+		CEB4825B2A482FA500EC5213 /* Discount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4825A2A482FA500EC5213 /* Discount.swift */; };
+		CEB482622A48BF1500EC5213 /* DiscountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB482612A48BF1500EC5213 /* DiscountManager.swift */; };
+		CEB482662A48EE6900EC5213 /* DiscountRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB482652A48EE6900EC5213 /* DiscountRow.swift */; };
+		CEE4F6962A3127AF0017EACB /* CabifyMobileShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4F6952A3127AF0017EACB /* CabifyMobileShopApp.swift */; };
+		CEE4F69A2A3127B10017EACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE4F6992A3127B10017EACB /* Assets.xcassets */; };
+		CEE4F69D2A3127B10017EACB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE4F69C2A3127B10017EACB /* Preview Assets.xcassets */; };
+		CEE4F6A72A3127B10017EACB /* CabifyMobileShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4F6A62A3127B10017EACB /* CabifyMobileShopTests.swift */; };
+		CEE4F6B12A3127B10017EACB /* CabifyMobileShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4F6B02A3127B10017EACB /* CabifyMobileShopUITests.swift */; };
+		CEE4F6B32A3127B10017EACB /* CabifyMobileShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4F6B22A3127B10017EACB /* CabifyMobileShopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE4F6A32A3127B10017EACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE4F68A2A3127AF0017EACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE4F6912A3127AF0017EACB;
+			remoteInfo = CabifyMobileShop;
+		};
+		CEE4F6AD2A3127B10017EACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE4F68A2A3127AF0017EACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE4F6912A3127AF0017EACB;
+			remoteInfo = CabifyMobileShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB4822B2A3E70B800EC5213 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CEB4822E2A3E718500EC5213 /* ProductResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResponse.swift; sourceTree = "<group>"; };
+		CEB482392A3E746A00EC5213 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		CEB4823B2A3E7D9B00EC5213 /* ProductDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDTO.swift; sourceTree = "<group>"; };
+		CEB4823E2A3E7FAF00EC5213 /* ProductMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductMapper.swift; sourceTree = "<group>"; };
+		CEB482442A40EAA700EC5213 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		CEB482462A40F13000EC5213 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		CEB482482A40F4E700EC5213 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		CEB4824B2A40F63A00EC5213 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		CEB4824D2A40F8A300EC5213 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		CEB482502A40FC1600EC5213 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		CEB482582A4824D900EC5213 /* ProductManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductManager.swift; sourceTree = "<group>"; };
+		CEB4825A2A482FA500EC5213 /* Discount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discount.swift; sourceTree = "<group>"; };
+		CEB482612A48BF1500EC5213 /* DiscountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountManager.swift; sourceTree = "<group>"; };
+		CEB482652A48EE6900EC5213 /* DiscountRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountRow.swift; sourceTree = "<group>"; };
+		CEE4F6922A3127AF0017EACB /* CabifyMobileShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CabifyMobileShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE4F6952A3127AF0017EACB /* CabifyMobileShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabifyMobileShopApp.swift; sourceTree = "<group>"; };
+		CEE4F6992A3127B10017EACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE4F69C2A3127B10017EACB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEE4F6A22A3127B10017EACB /* CabifyMobileShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabifyMobileShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE4F6A62A3127B10017EACB /* CabifyMobileShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabifyMobileShopTests.swift; sourceTree = "<group>"; };
+		CEE4F6AC2A3127B10017EACB /* CabifyMobileShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabifyMobileShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE4F6B02A3127B10017EACB /* CabifyMobileShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabifyMobileShopUITests.swift; sourceTree = "<group>"; };
+		CEE4F6B22A3127B10017EACB /* CabifyMobileShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabifyMobileShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE4F68F2A3127AF0017EACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4F69F2A3127B10017EACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4F6A92A3127B10017EACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB4822D2A3E712A00EC5213 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4822B2A3E70B800EC5213 /* Product.swift */,
+				CEB4822E2A3E718500EC5213 /* ProductResponse.swift */,
+				CEB4823B2A3E7D9B00EC5213 /* ProductDTO.swift */,
+				CEB482502A40FC1600EC5213 /* CartItem.swift */,
+				CEB4825A2A482FA500EC5213 /* Discount.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEB482322A3E71C800EC5213 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4824B2A40F63A00EC5213 /* CartManager.swift */,
+				CEB482582A4824D900EC5213 /* ProductManager.swift */,
+				CEB482612A48BF1500EC5213 /* DiscountManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CEB482352A3E738800EC5213 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEB482392A3E746A00EC5213 /* ProductListView.swift */,
+				CEB482442A40EAA700EC5213 /* ProductCard.swift */,
+				CEB482482A40F4E700EC5213 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEB4823D2A3E7F9C00EC5213 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4823E2A3E7FAF00EC5213 /* ProductMapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		CEB4824A2A40F62100EC5213 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CEB482462A40F13000EC5213 /* CartButton.swift */,
+				CEB4824D2A40F8A300EC5213 /* ProductRow.swift */,
+				CEB482652A48EE6900EC5213 /* DiscountRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CEE4F6892A3127AF0017EACB = {
+			isa = PBXGroup;
+			children = (
+				CEE4F6942A3127AF0017EACB /* CabifyMobileShop */,
+				CEE4F6A52A3127B10017EACB /* CabifyMobileShopTests */,
+				CEE4F6AF2A3127B10017EACB /* CabifyMobileShopUITests */,
+				CEE4F6932A3127AF0017EACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE4F6932A3127AF0017EACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4F6922A3127AF0017EACB /* CabifyMobileShop.app */,
+				CEE4F6A22A3127B10017EACB /* CabifyMobileShopTests.xctest */,
+				CEE4F6AC2A3127B10017EACB /* CabifyMobileShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE4F6942A3127AF0017EACB /* CabifyMobileShop */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4824A2A40F62100EC5213 /* Components */,
+				CEB4823D2A3E7F9C00EC5213 /* Mappers */,
+				CEB482352A3E738800EC5213 /* Views */,
+				CEB482322A3E71C800EC5213 /* Services */,
+				CEB4822D2A3E712A00EC5213 /* Models */,
+				CEE4F6952A3127AF0017EACB /* CabifyMobileShopApp.swift */,
+				CEE4F6992A3127B10017EACB /* Assets.xcassets */,
+				CEE4F69B2A3127B10017EACB /* Preview Content */,
+			);
+			path = CabifyMobileShop;
+			sourceTree = "<group>";
+		};
+		CEE4F69B2A3127B10017EACB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4F69C2A3127B10017EACB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEE4F6A52A3127B10017EACB /* CabifyMobileShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4F6A62A3127B10017EACB /* CabifyMobileShopTests.swift */,
+			);
+			path = CabifyMobileShopTests;
+			sourceTree = "<group>";
+		};
+		CEE4F6AF2A3127B10017EACB /* CabifyMobileShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4F6B02A3127B10017EACB /* CabifyMobileShopUITests.swift */,
+				CEE4F6B22A3127B10017EACB /* CabifyMobileShopUITestsLaunchTests.swift */,
+			);
+			path = CabifyMobileShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE4F6912A3127AF0017EACB /* CabifyMobileShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE4F6B62A3127B10017EACB /* Build configuration list for PBXNativeTarget "CabifyMobileShop" */;
+			buildPhases = (
+				CEE4F68E2A3127AF0017EACB /* Sources */,
+				CEE4F68F2A3127AF0017EACB /* Frameworks */,
+				CEE4F6902A3127AF0017EACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CabifyMobileShop;
+			productName = CabifyMobileShop;
+			productReference = CEE4F6922A3127AF0017EACB /* CabifyMobileShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE4F6A12A3127B10017EACB /* CabifyMobileShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE4F6B92A3127B10017EACB /* Build configuration list for PBXNativeTarget "CabifyMobileShopTests" */;
+			buildPhases = (
+				CEE4F69E2A3127B10017EACB /* Sources */,
+				CEE4F69F2A3127B10017EACB /* Frameworks */,
+				CEE4F6A02A3127B10017EACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE4F6A42A3127B10017EACB /* PBXTargetDependency */,
+			);
+			name = CabifyMobileShopTests;
+			productName = CabifyMobileShopTests;
+			productReference = CEE4F6A22A3127B10017EACB /* CabifyMobileShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEE4F6AB2A3127B10017EACB /* CabifyMobileShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE4F6BC2A3127B10017EACB /* Build configuration list for PBXNativeTarget "CabifyMobileShopUITests" */;
+			buildPhases = (
+				CEE4F6A82A3127B10017EACB /* Sources */,
+				CEE4F6A92A3127B10017EACB /* Frameworks */,
+				CEE4F6AA2A3127B10017EACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE4F6AE2A3127B10017EACB /* PBXTargetDependency */,
+			);
+			name = CabifyMobileShopUITests;
+			productName = CabifyMobileShopUITests;
+			productReference = CEE4F6AC2A3127B10017EACB /* CabifyMobileShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE4F68A2A3127AF0017EACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CEE4F6912A3127AF0017EACB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CEE4F6A12A3127B10017EACB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CEE4F6912A3127AF0017EACB;
+					};
+					CEE4F6AB2A3127B10017EACB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CEE4F6912A3127AF0017EACB;
+					};
+				};
+			};
+			buildConfigurationList = CEE4F68D2A3127AF0017EACB /* Build configuration list for PBXProject "CabifyMobileShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE4F6892A3127AF0017EACB;
+			productRefGroup = CEE4F6932A3127AF0017EACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE4F6912A3127AF0017EACB /* CabifyMobileShop */,
+				CEE4F6A12A3127B10017EACB /* CabifyMobileShopTests */,
+				CEE4F6AB2A3127B10017EACB /* CabifyMobileShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE4F6902A3127AF0017EACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE4F69D2A3127B10017EACB /* Preview Assets.xcassets in Resources */,
+				CEE4F69A2A3127B10017EACB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4F6A02A3127B10017EACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4F6AA2A3127B10017EACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE4F68E2A3127AF0017EACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB4822C2A3E70B800EC5213 /* Product.swift in Sources */,
+				CEB482592A4824D900EC5213 /* ProductManager.swift in Sources */,
+				CEB4824C2A40F63A00EC5213 /* CartManager.swift in Sources */,
+				CEB4822F2A3E718500EC5213 /* ProductResponse.swift in Sources */,
+				CEB482452A40EAA700EC5213 /* ProductCard.swift in Sources */,
+				CEE4F6962A3127AF0017EACB /* CabifyMobileShopApp.swift in Sources */,
+				CEB4823F2A3E7FAF00EC5213 /* ProductMapper.swift in Sources */,
+				CEB482512A40FC1600EC5213 /* CartItem.swift in Sources */,
+				CEB4825B2A482FA500EC5213 /* Discount.swift in Sources */,
+				CEB482492A40F4E700EC5213 /* CartView.swift in Sources */,
+				CEB482622A48BF1500EC5213 /* DiscountManager.swift in Sources */,
+				CEB4823A2A3E746A00EC5213 /* ProductListView.swift in Sources */,
+				CEB4824E2A40F8A300EC5213 /* ProductRow.swift in Sources */,
+				CEB482662A48EE6900EC5213 /* DiscountRow.swift in Sources */,
+				CEB482472A40F13000EC5213 /* CartButton.swift in Sources */,
+				CEB4823C2A3E7D9B00EC5213 /* ProductDTO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4F69E2A3127B10017EACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE4F6A72A3127B10017EACB /* CabifyMobileShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4F6A82A3127B10017EACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE4F6B32A3127B10017EACB /* CabifyMobileShopUITestsLaunchTests.swift in Sources */,
+				CEE4F6B12A3127B10017EACB /* CabifyMobileShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE4F6A42A3127B10017EACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE4F6912A3127AF0017EACB /* CabifyMobileShop */;
+			targetProxy = CEE4F6A32A3127B10017EACB /* PBXContainerItemProxy */;
+		};
+		CEE4F6AE2A3127B10017EACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE4F6912A3127AF0017EACB /* CabifyMobileShop */;
+			targetProxy = CEE4F6AD2A3127B10017EACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEE4F6B42A3127B10017EACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE4F6B52A3127B10017EACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE4F6B72A3127B10017EACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CabifyMobileShop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabify.CabifyMobileShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE4F6B82A3127B10017EACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CabifyMobileShop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabify.CabifyMobileShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE4F6BA2A3127B10017EACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabify.CabifyMobileShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CabifyMobileShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CabifyMobileShop";
+			};
+			name = Debug;
+		};
+		CEE4F6BB2A3127B10017EACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabify.CabifyMobileShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CabifyMobileShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CabifyMobileShop";
+			};
+			name = Release;
+		};
+		CEE4F6BD2A3127B10017EACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabify.CabifyMobileShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CabifyMobileShop;
+			};
+			name = Debug;
+		};
+		CEE4F6BE2A3127B10017EACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabify.CabifyMobileShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CabifyMobileShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE4F68D2A3127AF0017EACB /* Build configuration list for PBXProject "CabifyMobileShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE4F6B42A3127B10017EACB /* Debug */,
+				CEE4F6B52A3127B10017EACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE4F6B62A3127B10017EACB /* Build configuration list for PBXNativeTarget "CabifyMobileShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE4F6B72A3127B10017EACB /* Debug */,
+				CEE4F6B82A3127B10017EACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE4F6B92A3127B10017EACB /* Build configuration list for PBXNativeTarget "CabifyMobileShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE4F6BA2A3127B10017EACB /* Debug */,
+				CEE4F6BB2A3127B10017EACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE4F6BC2A3127B10017EACB /* Build configuration list for PBXNativeTarget "CabifyMobileShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE4F6BD2A3127B10017EACB /* Debug */,
+				CEE4F6BE2A3127B10017EACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE4F68A2A3127AF0017EACB /* Project object */;
+}
