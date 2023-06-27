@@ -40,7 +40,7 @@ class DiscountManager: ObservableObject {
             let find = products.first(where: { $0.product.code == key })
             if key == "VOUCHER" {
                 discount += (find?.product.price ?? 0.0) * Double(value)
-            } else {
+            } else if key == "TSHIRT" {
                 let discountDate = discountData.first(where: { $0.code == key })
                 discount += (discountDate?.discountAmount ?? 0.0) * Double(value)
             }
@@ -60,13 +60,16 @@ class DiscountManager: ObservableObject {
             
             if action == "add" {
                 
-                if quantity == discount.criteria {
-                    discountData.append(discount)
-                    discountData.append(discount)
-                    discountData.append(discount)
-                } else if quantity > discount.criteria {
-                    if discountCount["TSHIRT"] != quantity {
+                if product.code == discount.code {
+                    
+                    if quantity == discount.criteria && !discountData.contains(where: { $0.code == "TSHIRT" }) {
                         discountData.append(discount)
+                        discountData.append(discount)
+                        discountData.append(discount)
+                    } else if quantity > discount.criteria {
+                        if discountCount["TSHIRT"] != quantity {
+                            discountData.append(discount)
+                        }
                     }
                 }
                 

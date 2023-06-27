@@ -22,7 +22,7 @@ struct DiscountRow: View {
                 .cornerRadius(10)
             
             VStack(alignment: .leading) {
-                Text("\(discount)")
+                Text("DISCOUNT: \(discount)")
                     .font(.headline)
                     .bold()
                 
